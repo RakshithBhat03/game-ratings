@@ -7,3 +7,5 @@
 2. There are three categories **Selling, Free and Role playing games**.
 
 3. Click on any of the three categories to find top 5 games in the genre.
+
+4. Hosted at https://rakshith-game-ratings.netlify.app/
