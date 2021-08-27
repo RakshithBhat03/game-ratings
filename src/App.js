@@ -37,8 +37,7 @@ export default function App() {
           fontSize: "1.7rem",
           fontWeight: "bold",
           color: "var(--primary-color)",
-        }}
-      >
+        }}>
         Checkout some of the best rated games. Select a category to get started
       </h2>
       <div>
@@ -46,8 +45,7 @@ export default function App() {
           <button
             onClick={function () {
               return userClick(category);
-            }}
-          >
+            }}>
             {category}
           </button>
         ))}
@@ -62,6 +60,43 @@ export default function App() {
           ))}
         </ul>
       </div>
+      <footer>
+        <div class="socials">My Socials</div>
+        <ul class="list-footer">
+          <li>
+            <a
+              href="https://github.com/RakshithBhat03"
+              target="_blank"
+              class="link">
+              Github
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://twitter.com/RakshithBhat1"
+              target="_blank"
+              class="link">
+              Twitter
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/rakshithbhat/"
+              target="_blank"
+              class="link">
+              Linkedin
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://rakshithbhat.netlify.app/"
+              target="_blank"
+              class="link">
+              Portfolio
+            </a>
+          </li>
+        </ul>
+      </footer>
     </div>
   );
 }

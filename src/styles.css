@@ -54,6 +54,7 @@ button:hover {
 }
 .displayDiv ul {
   padding-inline-start: 0px;
+  position: relative;
 }
 .list {
   list-style: none;
@@ -77,4 +78,37 @@ button:hover {
   font-weight: 700;
   color: var(--primary-color);
   text-shadow: 1px 3px var(--shadow-color);
+}
+
+.socials {
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+.list-footer {
+  list-style: none;
+  text-align: center;
+  margin: 2.5rem auto;
+  margin-left: -40px;
+}
+.link {
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 1.2rem;
+}
+.link:hover {
+  color: var(--button-color);
+}
+footer {
+  position: relative;
+  width: 100%;
+  left: 0;
+  margin: 0 auto;
+  bottom: 0;
+  margin-top: 6rem;
+}
+
+.list-footer li {
+  display: inline;
+  margin: 0rem 0.5rem;
 }
